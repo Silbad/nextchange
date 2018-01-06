@@ -1,0 +1,20 @@
+{
+  "name": "NextChange",
+  "version": "1.0.0",
+  "description": "State of all active LiteBit markets",
+  "main": "index.js",
+  "repository": "https://github.com/Silbad/NextChange",
+  "author": "Silbad",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "syncy": "^2.2.2",
+    "web-ext": "^2.2.2"
+  }
+}

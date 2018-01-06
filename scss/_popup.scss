@@ -1,0 +1,76 @@
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        background-color: $nc-dark;
+        tr.up {
+            color: $nc-green;
+            .fa {
+                 transform: rotate(270deg);
+            }
+        }
+        tr.down {
+            color: $nc-red;
+            .fa {
+                 transform: rotate(90deg);
+            }
+        }
+        thead {
+            border-bottom: 2px solid lighten($nc-dark, 10%);
+            display: block;
+        }
+        tbody {
+            display: block;
+        	height: 5em;
+        	overflow-y: scroll;
+            min-height: 416px;
+        }
+        tfoot {
+            border: 0 none;
+            background-color: $nc-light;
+        }
+        thead td {
+            padding: 4px 8px;
+            border: 0 none;
+            font-weight: bold;
+            color: $nc-light;
+            background-color: $nc-light;
+            color: $nc-dark;
+            &:first-child {
+                text-align: center;
+            }
+        }
+        tbody td {
+            padding: 4px 8px;
+            border: 0 none;
+            border-bottom: 1px solid lighten($nc-dark, 10%);
+            &:first-child {
+                background-color: $nc-light;
+                display: flex;
+                text-align: center;
+            }
+            &:last-child {
+                text-align: center;
+            }
+        }
+        tfoot td {
+            padding: 4px 8px;
+            border: 0 none;
+            text-align: center;
+            a {
+                color: darken($nc-green, 20%);
+                &:hover {
+                    color: $nc-green;
+                }
+            }
+        }
+        object, img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

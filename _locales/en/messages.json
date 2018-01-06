@@ -1,0 +1,10 @@
+{
+    "NextChangeName": {
+        "message": "NextChange",
+        "description": "Name of the extension"
+    },
+    "NextChangeDescription": {
+        "message": "State of all active blockchain markets",
+        "description": "Description of the extension"
+    }
+}
