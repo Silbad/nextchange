@@ -9,4 +9,5 @@ A simple extension for Firefox to see state of all active LiteBit markets
 
 ## Help me with donations
 My Gulden account
+
 ![DeepLT](./donation/gulden_silbad.png)
