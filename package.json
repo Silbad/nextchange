@@ -1,20 +1,36 @@
 {
-  "name": "NextChange",
-  "version": "1.0.0",
-  "description": "State of all active LiteBit markets",
-  "main": "index.js",
-  "repository": "https://github.com/Silbad/NextChange",
-  "author": "Silbad",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0",
-    "syncy": "^2.2.2",
-    "web-ext": "^2.2.2"
-  }
+    "name": "nextchange",
+    "version": "2.0.0",
+    "private": true,
+    "scripts": {
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "dev": "vue-cli-service build --mode development --watch"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bootstrap-vue": "^2.21.2",
+        "core-js": "^3.9.1",
+        "vue": "^2.6.12",
+        "vue-router": "^3.5.1",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "bootstrap": "^4.6.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "popper.js": "^1.16.1",
+        "portal-vue": "^2.1.7",
+        "sass": "^1.32.8",
+        "sass-loader": "10.1.1",
+        "vue-cli-plugin-bootstrap": "~0.4.0",
+        "vue-cli-plugin-browser-extension": "latest",
+        "vue-template-compiler": "^2.6.11"
+    }
 }

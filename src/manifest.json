@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extName__",
+    "homepage_url": "http://localhost:8080/",
+    "description": "A Vue Browser Extension",
+    "default_locale": "en",
+    "permissions": [
+        "<all_urls>",
+        "*://*/*"
+    ],
+    "icons": {
+        "16": "icons/logo-16.png",
+        "48": "icons/logo-48.png",
+        "96": "icons/logo@2x.png"
+    },
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "__MSG_extName__",
+        "default_icon": {
+            "16": "icons/logo-16.png",
+            "48": "icons/logo-48.png"
+        }
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    }
+}

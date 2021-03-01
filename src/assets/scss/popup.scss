@@ -1,0 +1,14 @@
+// abstracts
+@import "node_modules/bootstrap/scss/functions";
+@import "abstracts/variables-nextchange";
+@import "abstracts/variables-bootstrap";
+@import "abstracts/variables-bootstrap-vue";
+
+// vendors
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index";
+
+// custom
+.table td {
+    vertical-align: middle;
+}
