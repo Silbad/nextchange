@@ -1,8 +1,13 @@
 {
     "manifest_version": 2,
     "name": "__MSG_extName__",
+    "version": "2.0.0",
+    "developer": {
+        "name": "Silbad",
+        "url": "https://github.com/Silbad/nextchange"
+    },
     "homepage_url": "http://localhost:8080/",
-    "description": "A Vue Browser Extension",
+    "description": "__MSG_extDescription__",
     "default_locale": "en",
     "permissions": [
         "<all_urls>",
@@ -28,7 +33,6 @@
         }
     },
     "options_ui": {
-        "page": "options.html",
-        "browser_style": true
+        "page": "options.html"
     }
 }
